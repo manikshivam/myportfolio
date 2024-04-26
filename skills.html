@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Skills</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1F252E;
+            color: #fff;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skills-list li {
+            width: 150px;
+            background-color: #333;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        .skills-list li span {
+            display: block;
+            font-weight: bold;
+        }
+
+        /* Navbar styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Portfolio.</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Programing Language</h1>
+        <ul class="skills-list">
+            <li><span>Python:</span> Advanced</li>
+            <li><span>Java:</span> Intermediate</li>
+            <li><span>JavaScript:</span> Intermediate</li>
+            <li><span>Sql:</span> Intermediate</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1> Frontend Skill </h1>
+        <ul class="skills-list">
+            <li><span>HTML:</span> Intermediate</li>
+            <li><span>CSS:</span> Intermediate</li>
+            <li><span>BOOTSTRAP:</span> Intermediate</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1> Backend Skill </h1>
+        <ul class="skills-list">
+            <li><span>Django:</span> Intermediate</li>
+            <li><span>Flask:</span> Intermediate</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1> Databases </h1>
+        <ul class="skills-list">
+            <li><span>Mysql:</span> Intermediate</li>
+            <li><span>Mariadb:</span> Intermediate</li>
+            <li><span>Sqlite3:</span> Intermediate</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1> Soft Skill </h1>
+        <ul class="skills-list">
+            <li><span>Linux:</span> Intermediate</li>
+            <li><span>Git:</span> Intermediate</li>
+            <li><span>Github:</span> Intermediate</li>
+        </ul>
+    </div>
+</body>
+
+</html>
